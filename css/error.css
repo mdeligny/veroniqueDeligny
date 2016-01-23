@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'oswaldlight';
+    src: url('./../font/oswald-light-webfont.eot');
+    src: url('./../font/oswald-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./../font/oswald-light-webfont.woff') format('woff'),
+         url('./../font/oswald-light-webfont.ttf') format('truetype'),
+         url('./../font/oswald-light-webfont.svg#oswaldlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'oswaldbook';
+    src: url('./../font/oswald-regular-webfont.eot');
+    src: url('./../font/oswald-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./../font/oswald-regular-webfont.woff') format('woff'),
+         url('./../font/oswald-regular-webfont.ttf') format('truetype'),
+         url('./../font/oswald-regular-webfont.svg#oswaldbook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'fira_sansregular';
+    src: url('./../font/firasans-regular-webfont.eot');
+    src: url('./../font/firasans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./../font/firasans-regular-webfont.woff') format('woff'),
+         url('./../font/firasans-regular-webfont.ttf') format('truetype'),
+         url('./../font/firasans-regular-webfont.svg#fira_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'fira_sansbold';
+    src: url('./../font/firasans-bold-webfont.eot');
+    src: url('./../font/firasans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./../font/firasans-bold-webfont.woff') format('woff'),
+         url('./../font/firasans-bold-webfont.ttf') format('truetype'),
+         url('./../font/firasans-bold-webfont.svg#fira_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'fira_sansitalic';
+    src: url('./../font/firasans-italic-webfont.eot');
+    src: url('./../font/firasans-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./../font/firasans-italic-webfont.woff') format('woff'),
+         url('./../font/firasans-italic-webfont.ttf') format('truetype'),
+         url('./../font/firasans-italic-webfont.svg#fira_sansitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/* -- STYLE -- */
+
+body{
+	font-family: 'fira_sansregular';
+	width:100%;
+	margin:0;
+    color:white;
+	background-image:url("./../img/background.jpg");
+}
+a {
+    text-decoration:none;
+    color:rgba(245, 155, 30, 0.7);
+}
+a:hover{
+    text-decoration:underline;
+}
+div#container{
+    text-align:center;
+    background-color:rgba(180,180,180,0.5);
+    width:80%;
+    max-width: 1024px;
+    margin:40px auto;
+    padding:20px;
+    border-radius:10px;
+}
+
+span#title{
+
+    font-size:10em;
+}
+span#error{
+    position:relative;
+    top:-25px;
+    font-family: 'fira_sansitalic';
+}
+span#info{
+    color:lightgrey;
+    position:relative;
+    top:-25px;
+}
+span#redirect{
+    display:block;
+    margin-top:50px;
+}
+
+@media screen and (max-width: 480px) {
+    span#title{
+        font-size:5em;
+    }
+}
