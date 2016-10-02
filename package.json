@@ -1,0 +1,38 @@
+{
+  "name": "veroniquedeligny",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdeligny/veroniqueDeligny.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mdeligny/veroniqueDeligny/issues"
+  },
+  "homepage": "https://github.com/mdeligny/veroniqueDeligny#readme",
+  "devDependencies": {
+    "del": "^2.0.2",
+    "gulp": "gulpjs/gulp#4.0",
+    "gulp-autoprefixer": "latest",
+    "gulp-concat": "^2.6.0",
+    "gulp-cssbeautify": "latest",
+    "gulp-csscomb": "latest",
+    "gulp-csso": "latest",
+    "gulp-imagemin": "^3.0.3",
+    "gulp-inject": "^4.1.0",
+    "gulp-load-plugins": "latest",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.0.0",
+    "stream-series": "^0.1.1"
+  },
+  "dependencies": {
+    "jquery": "2.1.1",
+    "materialize-css": "^0.97.7"
+  }
+}
