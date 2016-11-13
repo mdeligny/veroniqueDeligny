@@ -14,7 +14,8 @@
     <title>Véronique Deligny, Sophrologue à Villeneuve d'Ascq</title>
 
     <!-- inject:css -->
-    <link rel="stylesheet" href="/src/assets/css/style.css">
+    <link rel="stylesheet" href="../node_modules/materialize-css/bin/materialize.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <!-- endinject -->
 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -128,19 +129,31 @@
                 <h3><i class="material-icons medium brown-text">people</i></h3>
                 <h4>Je m'appelle Véronique Deligny</h4>
 
-                <p class="left-align light">
-                    Diplômée de l'Institut de Sophrologie Humaniste de Lille (I.S.H), membre de la <a
-                        onclick="window.open(this.href); return false;" rel="nofollow"
-                        href="http://feps-sophrologie.fr/">Fédération des Ecoles Professionnelles en Sophrologie</a>,
-                    je suis membre adhérente du <a onclick="window.open(this.href); return false;" rel="nofollow"
-                                                   href="http://www.syndicat-sophrologues.fr">Syndicat des Sophrologues
-                    Professionnels</a>.
-                    <br/><br/>
-                    Vous pouvez me rencontrer sur rendez-vous au cabinet :<br/>
-                    <i class="material-icons tiny">done</i> Le mercredi en journée et le samedi matin<br/>
-                    <i class="material-icons tiny">done</i> Les autres jours dès 17h<br/><br/>
-                    <span> Je me déplace à votre domicile le mardi, jeudi et vendredi avant 17h.</span>
-                </p>
+                <div class="row">
+                    <div class="col s12">
+                        <p class="left-align light">
+                            Diplômée de l'Institut de Sophrologie Humaniste de Lille (I.S.H), membre de la <a
+                                onclick="window.open(this.href); return false;" rel="nofollow"
+                                href="http://feps-sophrologie.fr/">Fédération des Ecoles Professionnelles en Sophrologie</a>,
+                            je suis membre adhérente du <a onclick="window.open(this.href); return false;" rel="nofollow"
+                                                           href="http://www.syndicat-sophrologues.fr">Syndicat des Sophrologues
+                            Professionnels</a>.
+                        </p>
+                    </div>
+                    <div class="col s12 m6">
+                        <p class="light left-align">
+                            Vous pouvez me rencontrer sur rendez-vous au cabinet :<br/>
+                            <i class="material-icons tiny">done</i> Le mercredi en journée et le samedi matin<br/>
+                            <i class="material-icons tiny">done</i> Les autres jours dès 17h<br/><br/>
+                            <span> Je me déplace à votre domicile le mardi, jeudi et vendredi avant 17h.</span>
+                        </p>
+                    </div>
+                    <div class="col s12 m6">
+                        <p>
+                            <img class="responsive-img" style="height:250px;" src="./assets/img/veroniqueDeligny.jpg"/>
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -149,14 +162,7 @@
 
 
 <div id="ou-se-situe-mon-cabinet" class="parallax-container valign-wrapper scrollspy">
-    <div class="section no-pad-bot">
-        <div class="container">
-            <div class="row center">
-                <h5 class="header col s12 light"></h5>
-            </div>
-        </div>
-    </div>
-    <div class="parallax">
+    <div class="section no-pad-bot" style="padding:0;height:400px;">
         <iframe
                 width="100%"
                 height="100%"
@@ -213,9 +219,9 @@
 
 
 <!-- inject:js -->
-<script src="/src/js/init.js"></script>
-<script src="/src/js/jquery-3.1.1.js"></script>
-<script src="/src/js/materialize.js"></script>
+<script src="../node_modules/jquery/dist/jquery.js"></script>
+<script src="../node_modules/materialize-css/bin/materialize.js"></script>
+<script src="./js/init.js"></script>
 <!-- endinject -->
 
 </body>
